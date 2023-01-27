@@ -22,7 +22,7 @@ http.createServer(function (req, res) {
 
     let tabla = datos.tabla;
 
-    if (tabla = "Libro") {
+    if (tabla == "Libro") {
         switch (accion) {
             case "insert":
                 sql = "insert into tbl_libro " +
