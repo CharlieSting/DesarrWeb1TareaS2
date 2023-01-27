@@ -106,7 +106,7 @@ http.createServer(function (req, res) {
                 " set  id_libro = ? ,  " +
                 " numero_cuenta = ? , " +
                 " fehca_prestamo = ? " +
-                " where prestamo = ? ";
+                " where id_prestamo = ? ";
                 parametros = [datos.id_libro, datos.numero_cuenta, datos.fehca_prestamo, datos.id_prestamo];
                 break;
 
