@@ -30,12 +30,7 @@ fehca_prestamo date
 );
 
 select * from tbl_prestamo;
--- Bulk Insert
-insert into tbl_persona ( nombre_persona, apellido_persona, fecha_nacimiento)
-values
-    ('Cristiano', 'Ronaldo', '1985-02-05'),
-    ('Leonel', 'Messi', '1988-08-30'),
-    ('Alex', 'Morgan', '1990-12-15');
+
 
 insert into tbl_libro(nombre, genero, fecha_lanzamiento, autor)
 values
